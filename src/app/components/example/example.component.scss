@@ -1,0 +1,32 @@
+.row {
+  width: 40%;
+  margin: 20px auto;
+}
+.card {
+  margin: 10px !important;
+  > .card-content {
+    background: red;
+    padding: 10px;
+    text-align: center;
+    font-size: 36px;
+    height: 200px;
+  }
+}
+
+/* the slides */
+.slick-slide {
+  margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+  margin: 0 -10px;
+}
+
+.slick-next {
+  right: -40px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: black;
+}
