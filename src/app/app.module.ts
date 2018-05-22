@@ -6,11 +6,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ExampleComponent } from './components/example/example.component';
 
-import { CKEditorModule } from 'ngx-ckeditor';
-
 @NgModule({
   declarations: [AppComponent, ExampleComponent],
-  imports: [BrowserModule, AppRoutingModule, CKEditorModule],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
 })
